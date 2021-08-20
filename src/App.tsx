@@ -11,10 +11,12 @@ import {RestorPassword} from './components/RestorPassword/RestorPassword';
 import {TestPage} from './components/TestPage/TestPage';
 import {InputPassword} from './components/InputPassword/InputPassword';
 import {Error404} from './components/Error404/Error404';
+import {Header} from './components/Header/Header';
 
 function App() {
     return (
         <div className="App">
+            <Header/>
             <Switch>
                 <Route path={'/login'}
                        render={() => <Login/>}/>
