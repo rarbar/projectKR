@@ -19,6 +19,7 @@ export const Header = () => {
             <div>
                 <NavLink to={'/inputpassword'}>Inputpassword</NavLink>
             </div>
+            <span></span>
         </div>
     )
 }
