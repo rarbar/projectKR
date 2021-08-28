@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    min-height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 8px -4px #807f7f;
+}
+
+.navHeader {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .navHeader a, .header .navHeader a:active {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+    color: #21268F;
+}
+
+.navHeader a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #21268F;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.navHeader a:hover:after {
+    transform: scaleX(1);
+}
